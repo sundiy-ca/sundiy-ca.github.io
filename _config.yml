@@ -1,7 +1,3 @@
-# Theme:
-# Jekyll:  
-
-
 remote_theme: mmistakes/minimal-mistakes@4.24.0
 
 defaults:
@@ -12,21 +8,21 @@ defaults:
       layout: single      
   - scope:
       path: ""
-      type: games
+      type: home
       share: true
     values:
       layout: single
   - scope:
       path: ""
-      type: behaviour
+      type: auto
     values:
       layout: single
 
 
 collections:
-  games:
+  home:
     output: true
-  behaviour:
+  auto:
     output: true
 
 include:
