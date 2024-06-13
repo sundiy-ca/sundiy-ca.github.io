@@ -17,10 +17,24 @@ defaults:
       type: auto
     values:
       layout: single
+  - scope:
+      path: "outdoor"
+      type: home-outdoor
+    values:
+      layout: single
+  - scope:
+      path: "outdoor/backyard"
+      type: home-outdoor-backyard
+    values:
+      layout: single
 
 
 collections:
   home:
+    output: true
+  home-outdoor:
+    output: true
+  home-outdoor-backyard:
     output: true
   auto:
     output: true
