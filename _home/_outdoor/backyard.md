@@ -1,8 +1,7 @@
 ---
-title: Home2
-permalink: /home2
+title: Backyard
 layout: collection
-collection: home2
+collection: backyard
 entries_layout: grid
 classes: wide
 ---
