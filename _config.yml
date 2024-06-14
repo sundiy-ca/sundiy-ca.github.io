@@ -32,10 +32,10 @@ defaults:
 collections:
   home:
     output: true
-  home-outdoor:
-    output: true
-  home-outdoor-backyard:
-    output: true
+    outdoor:
+      output: true
+      backyard:
+        output: true
   auto:
     output: true
 
