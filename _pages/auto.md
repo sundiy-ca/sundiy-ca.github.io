@@ -1,7 +1,7 @@
 ---
 title: Auto
 permalink: /auto
-layout: collection
+layout: nested
 collection: auto
 entries_layout: grid
 classes: wide
