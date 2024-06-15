@@ -9,5 +9,5 @@ Collection: {{ page.collection }} <br/>
 {% assign entries = site[page.collection]  %}
 
 {%- for post in entries -%}
-  <b>{{post.title}}</b>: {{post.url}} <br/>
+  <b>{{post.title}}</b>: {{post.url}} -> <a href="{{post.url}}">Go there</a> <br/>
 {%- endfor -%}
