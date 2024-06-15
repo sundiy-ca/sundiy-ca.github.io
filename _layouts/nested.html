@@ -4,7 +4,7 @@ layout: archive
 
 {{ content }}
 
-{% assign entries = post.collection | where_exp: "post", "post.hidden != true" %}
+{% assign entries = page.collection | where_exp: "post", "post.hidden != true" %}
 
 {%- for post in entries -%}
   <b>{{post.title}}</b>: {{post.url}}
