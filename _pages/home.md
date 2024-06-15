@@ -1,7 +1,7 @@
 ---
 title: Home
 permalink: /home
-layout: collection
+layout: nested
 collection: home
 entries_layout: grid
 classes: wide
