@@ -1,7 +1,7 @@
 ---
 title: outdoor2
 layout: collection
-collection: outdoor
+collection: /home/outdoor
 entries_layout: grid
 classes: wide
 ---
