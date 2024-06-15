@@ -4,6 +4,8 @@ layout: archive
 
 {{ content }}
 
+Collection: {{ page.collection }}
+
 {% assign entries = site[page.collection]  %}
 
 {%- for post in entries -%}
