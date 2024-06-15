@@ -1,5 +1,5 @@
 ---
 title: outdoor
 permalink: /home/outdoor
-layout: nested
+layout: subfolder
 ---
