@@ -32,12 +32,6 @@ defaults:
 collections:
   home:
     output: true
-    exterior:
-      output: true
-    outdoor:
-      output: true
-      backyard:
-        output: true
   auto:
     output: true
 

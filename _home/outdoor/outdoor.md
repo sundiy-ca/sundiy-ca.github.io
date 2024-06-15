@@ -1,5 +1,0 @@
----
-title: outdoor
----
-
-outdoor stuff
