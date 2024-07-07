@@ -1,2 +1,0 @@
-title: Electrical
-draft: true
